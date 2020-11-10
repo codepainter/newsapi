@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "lib": ["es2016"],
+        "paths": {
+            "*": ["*"],
+            "@libs": ["libraries/*"],
+            "@libraries": ["libraries/*"]
+        },
+        "sourceMap": true,
+        "allowJs": true,
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "outDir": ".build"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
