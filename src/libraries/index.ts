@@ -1,6 +1,6 @@
-import { pino } from "./logger"
+import { pino } from "@libs/logger"
 
-import makeAccessEnv from "./access-env"
+import makeAccessEnv from "@libs/access-env"
 export const accessEnv = makeAccessEnv({ logger: pino })
 
 export default {

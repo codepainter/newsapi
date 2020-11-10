@@ -3,9 +3,8 @@
         "baseUrl": "src",
         "lib": ["es2016"],
         "paths": {
-            "*": ["*"],
-            "@libs": ["libraries/*"],
-            "@libraries": ["libraries/*"]
+            "@libs/*": ["libraries/*"],
+            "@libraries/*": ["libraries/*"]
         },
         "sourceMap": true,
         "allowJs": true,
